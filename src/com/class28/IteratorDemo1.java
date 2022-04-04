@@ -11,11 +11,13 @@ public class IteratorDemo1 {
         course.add("Java");
         course.add("GIt");
         course.add("Selenium");
-       /* for(int i=0;i<course.size();i++){
-            if(course.get(i).equals("Java")){
-                course.remove("Java")
+        for (int i = 0; i < course.size(); i++) {
+            if (course.get(i).equals("Java")) {
+                course.remove("Java");
             }
-        }*/
-
+        }
     }
 }
+
+
+
