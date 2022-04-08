@@ -1,6 +1,8 @@
 package com.class30;
 
 
+import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+
 import java.util.HashMap;
 public class HashMap1 {
     public static void main(String[] args) {
@@ -22,6 +24,8 @@ public class HashMap1 {
         System.out.println(fruitMap.size());
         fruitMap.replace("Banana",12.5);
         System.out.println(fruitMap);
+        fruitMap.clear();
+        System.out.println(fruitMap.size());
 
     }
 }
